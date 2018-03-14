@@ -18,3 +18,9 @@ paragraphs.each(function(index, element) {
 	$(element).append(button)
 
 });
+
+// Addition of event handlers //
+
+$("button").click(function(){
+	alert($(this).attr("data-tmp"));
+});
